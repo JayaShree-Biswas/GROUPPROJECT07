@@ -1,4 +1,4 @@
-# Group 9 Lab Book
+# Group 7 Lab Book
 
 Welcome to the official repository of Group 9's Lab Book, created as part of our coursework. This project was collaboratively developed by our team, led by Jaya Shree Biswas.
 
