@@ -297,7 +297,7 @@ This document provides a brief introduction to some of the basic features of \La
 	\end{figure}
 \end{document}
 
-3. MAKING CALCULATOR IN C
+4. CALCULATOR IN C
 \documentclass[a4paper,12pt]{article}
 \usepackage{amsmath}
 \usepackage{listings}
@@ -305,22 +305,9 @@ This document provides a brief introduction to some of the basic features of \La
 \usepackage{geometry}
 \geometry{left=1in, right=1in, top=1in, bottom=1in}
 
-\title{Making Calculator in C}
+\title{Calculator in C}
 \author{Suraj Maharaj}
 \date{\today}
-
-\begin{document}
-
-\maketitle
-
-\section{\underline{Introduction}}
-In this document, I will present a detailed explanation of a simple calculator program developed in the C programming language. This calculator performs various arithmetic operations including addition, subtraction, multiplication, division, percentage calculation, squaring, and cubing of numbers. The design of this calculator is aimed at providing a user-friendly interface with robust input validation to ensure accurate results.
-
-\section{\underline{Calculator In C}}
-Below is the complete code for the calculator in C , followed by an explanation of each function and its role in the program.
-
-% Define the light gray color for background
-\definecolor{lightgray}{rgb}{0.9,0.9,0.9}
 
 \lstset{
   language=C,                              % Set language to C
@@ -342,8 +329,19 @@ Below is the complete code for the calculator in C , followed by an explanation 
   basicstyle=\ttfamily\footnotesize,       % Code font and size
   framerule=2pt,                           % Thickness of the frame
 }
-
 \begin{document}
+
+\maketitle
+
+\section{\underline{Introduction}}
+In this document, I will present a detailed explanation of a simple calculator program developed in the C programming language. This calculator performs various arithmetic operations including addition, subtraction, multiplication, division, percentage calculation, squaring, and cubing of numbers. The design of this calculator is aimed at providing a user-friendly interface with robust input validation to ensure accurate results.
+
+\section{\underline{Code}}
+Below is the complete code for the calculator in C , followed by an explanation of each function and its role in the program.
+
+% Define the light gray color for background
+\definecolor{lightgray}{rgb}{0.9,0.9,0.9}
+
 
 \begin{lstlisting}[caption=Simple Calculator in C]
 #include <stdio.h>
@@ -660,5 +658,4 @@ Overall, this calculator is a valuable exercise in programming, offering insight
 .
 
 \end{document}
-
 
